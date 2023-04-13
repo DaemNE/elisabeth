@@ -1,6 +1,7 @@
 html {
     padding: 0;
     margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 ul,
@@ -45,6 +46,18 @@ li {
     justify-content: center;
     padding-right: 5vw;
     padding-left: 5vw;
+    gap: 15px;
+}
+
+.exp-container>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edu-container>ul {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
