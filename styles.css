@@ -39,6 +39,12 @@ li {
         padding-left: 5vw;
         padding-right: 5vw;
     }
+    .exp-edu-container {
+        flex-direction: column;
+    }
+    .pub-and-seminar-container {
+        flex-direction: column;
+    }
 }
 
 .exp-edu-container {
