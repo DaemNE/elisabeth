@@ -78,6 +78,12 @@ img {
     right: 1vw;
 }
 
+#linkedin_logo {
+    position: fixed;
+    top: 1vh;
+    right: 1vw;
+}
+
 .exp-edu-container {
     display: flex;
     justify-content: center;
