@@ -4,6 +4,14 @@ html {
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
 ul,
 li {
     list-style: none;
@@ -17,6 +25,13 @@ li {
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    position: absolute;
+    top: 20vh;
+}
+
+img {
+    height: 24px;
+    width: 24px;
 }
 
 .header-info {
@@ -29,8 +44,8 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-left: 35vw;
-    padding-right: 35vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
     margin-top: 5vh;
 }
 
@@ -45,6 +60,18 @@ li {
     .pub-and-seminar-container {
         flex-direction: column;
     }
+}
+
+#educatie_logo {
+    position: absolute;
+    top: 95vh;
+    left: 1vw;
+}
+
+#artikels_logo {
+    position: absolute;
+    top: 95vh;
+    right: 1vw;
 }
 
 .exp-edu-container {
