@@ -60,6 +60,9 @@ img {
     .pub-and-seminar-container {
         flex-direction: column;
     }
+    body {
+        background: red;
+    }
 }
 
 #educatie_logo {
