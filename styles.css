@@ -72,6 +72,12 @@ img {
     left: 1vw;
 }
 
+#email_logo {
+    position: fixed;
+    top: 1vh;
+    left: 1vw;
+}
+
 #artikels_logo {
     position: fixed;
     bottom: 1vh;
