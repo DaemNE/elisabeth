@@ -68,13 +68,13 @@ img {
 
 #educatie_logo {
     position: fixed;
-    top: 95vh;
+    bottom: 1vh;
     left: 1vw;
 }
 
 #artikels_logo {
     position: fixed;
-    top: 95vh;
+    bottom: 1vh;
     right: 1vw;
 }
 
