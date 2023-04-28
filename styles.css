@@ -105,3 +105,11 @@ img {
 .pub-and-seminar-container>div>ul>li {
     margin-bottom: 15px;
 }
+
+.links {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-small;
+    gap: 45px;
+}
