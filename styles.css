@@ -4,19 +4,12 @@ html {
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-}
-
 ul,
 li {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: xx-small;
 }
 
 .header {
@@ -25,13 +18,17 @@ li {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    position: absolute;
-    top: 20vh;
+}
+
+a {
+    color: black;
+    cursor: pointer;
 }
 
 img {
     height: 24px;
     width: 24px;
+    border: none;
 }
 
 .header-info {
@@ -47,29 +44,36 @@ img {
     padding-left: 20vw;
     padding-right: 20vw;
     margin-top: 5vh;
+    font-size: xx-small;
 }
 
 @media only screen and (max-width: 900px) {
     .intro {
-        padding-left: 5vw;
-        padding-right: 5vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
     .exp-edu-container {
+        margin-top: 5vh;
         flex-direction: column;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
     .pub-and-seminar-container {
+        margin-top: 5vh;
         flex-direction: column;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 }
 
 #educatie_logo {
-    position: absolute;
+    position: fixed;
     top: 95vh;
     left: 1vw;
 }
 
 #artikels_logo {
-    position: absolute;
+    position: fixed;
     top: 95vh;
     right: 1vw;
 }
@@ -77,8 +81,7 @@ img {
 .exp-edu-container {
     display: flex;
     justify-content: center;
-    padding-right: 5vw;
-    padding-left: 5vw;
+    align-items: center;
     gap: 15px;
 }
 
@@ -97,8 +100,6 @@ img {
 .pub-and-seminar-container {
     display: flex;
     justify-content: center;
-    padding-right: 5vw;
-    padding-left: 5vw;
     gap: 10px;
 }
 
